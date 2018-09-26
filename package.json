@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "puppeteer": "^1.8.0",
     "ultimate-guitar-scraper": "^1.0.2"
   }
 }
