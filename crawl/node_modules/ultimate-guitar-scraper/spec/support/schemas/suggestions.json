@@ -1,0 +1,7 @@
+{
+  "title" : "suggestions",
+  "type": "array",
+   "items": {
+     "type": "string"
+   }
+}
