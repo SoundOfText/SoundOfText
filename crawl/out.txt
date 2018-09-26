@@ -1,0 +1,11 @@
+{ artist: 'Frank Sinatra',
+  name: 'Fly Me To The Moon',
+  url:
+   'https://tabs.ultimate-guitar.com/tab/frank_sinatra/fly_me_to_the_moon_chords_335196',
+  rating: 4.76771,
+  numberRates: 697,
+  type: 'Chords',
+  difficulty: 'novice',
+  content:
+   { text:
+      'Fly Me To The Moon chords\r\nFrank Sinatra\r\n\r\n[ch]Am[/ch]            [ch]Dm7[/ch]          [ch]G7[/ch]             [ch]Cmaj7[/ch] \r\nFly me to the moon, let me play among the stars,  \r\n[ch]F[/ch]               [ch]Dm[/ch]                [ch]E7[/ch]          [ch]Am[/ch]  [ch]A7[/ch]\r\nLet me see what spring is like on Jupiter and mars, \r\n \r\n   [ch]Dm7[/ch]       [ch]G7[/ch]  [ch]C[/ch]       [ch]Am[/ch]\r\nIn other words,  hold my hand!  \r\n   [ch]Dm7[/ch]       [ch]G7[/ch] [ch]C[/ch]         [ch]E[/ch]   \r\nIn other words, baby kiss me! \r\n \r\n[ch]Am[/ch]                 [ch]Dm7[/ch]              [ch]G7[/ch]           [ch]Cmaj7[/ch] \r\nFill my heart with song, and let me sing forever more  \r\n[ch]F[/ch]             [ch]Dm[/ch]             [ch]E[/ch]          [ch]Am[/ch]   [ch]A7[/ch]\r\nyou are all I long for all I worship & adore \r\n \r\n   [ch]Dm7[/ch]       [ch]G7[/ch]  [ch]C[/ch]         [ch]Am[/ch]   [ch]E7[/ch]\r\nIn other words,  please be true! \r\n   [ch]Dm7[/ch]       [ch]G7[/ch] [ch]Fm[/ch]     [ch]C[/ch]       \r\nIn other words  I love you \r\n\r\n[ch]Am[/ch] [ch]Dm7[/ch] [ch]G7[/ch] [ch]Cmaj7[/ch] [ch]F[/ch] [ch]Dm[/ch] [ch]E[/ch] [ch]Am[/ch]   [ch]Dm7[/ch] [ch]G7[/ch] [ch]Em[/ch] [ch]A7[/ch] [ch]E7[/ch]   [ch]Dm7[/ch] [ch]G7[/ch] [ch]C[/ch]\r\n\r\n[ch]Am[/ch]                 [ch]Dm7[/ch]              [ch]G7[/ch]           [ch]Cmaj7[/ch] \r\nFill my heart with song, and let me sing forever more  \r\n[ch]F[/ch]             [ch]Dm[/ch]             [ch]E[/ch]          [ch]Am[/ch]   [ch]A7[/ch]\r\nyou are all I long for all I worship & adore \r\n \r\n   [ch]Dm7[/ch]       [ch]G7[/ch]  [ch]C[/ch]         [ch]Am[/ch]\r\nIn other words,  please be true! \r\n   [ch]Dm7[/ch]       [ch]G7[/ch]  \r\nIn other words \r\n   [ch]Dm7[/ch]          [ch]G[/ch] [ch]G7[/ch]   [ch]C[/ch]\r\nIn other words  I love you! \r\n\r\n\r\nSet8\r\n\r\nhttp://sites.google.com/site/guitarmusicchordsandlyrics/' } }

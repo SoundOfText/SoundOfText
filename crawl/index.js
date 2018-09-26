@@ -1,4 +1,5 @@
 //todo: iterate over list of links
+const ugs = require('ultimate-guitar-scraper')
 
 
 let tabUrl = 'https://tabs.ultimate-guitar.com/tab/frank_sinatra/fly_me_to_the_moon_chords_335196'
