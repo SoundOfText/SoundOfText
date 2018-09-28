@@ -5,7 +5,7 @@ const Lyrics = "body > div.js-page.js-global-wrapper > div > div._16KsA > main >
 
 
 async function getLinks() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();
   var total_links = 0;
   var list;
@@ -14,13 +14,20 @@ async function getLinks() {
   await page.screenshot({ path: 'screenshots/ultimateguitar.png' });
 
   while(await page.$(NEXT_PAGE) != null){
+    //hi matt, this #Rectangle here is the css selector for the X button on the add
+    if(await page.$("#Rectangle") != null){
+      page.click("#Rectangle");
+    // await page.waitFor(() => !document.querySelector("#Rectangle"));
+    }
+    console.log("out of the if statement, ad should be gone");
+
     list = await page.evaluateHandle(() => {
       return Array.from(document.getElementsByClassName('link-primary _1kcZ5')).map(a => a.href);
     });
     console.log(await list.jsonValue());
-    await page.click(NEXT_PAGE);
+    page.click(NEXT_PAGE);
     await page.waitForNavigation();
-    await page.screenshot({ path: 'screenshots/ultimateguitar.png' });
+    await page.screenshot({ path: 'screenshots/nextpage.png' });
 
   }
   browser.close();
