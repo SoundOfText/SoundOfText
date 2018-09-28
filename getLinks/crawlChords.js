@@ -11,9 +11,6 @@ async function getLinks() {
   var list;
   var chordsPage = 'https://www.ultimate-guitar.com/explore?page=1&type[]=Chords'
   var pageNumber = 1;
-  console.log(pageNumber.toString());
-  var testChordPage = chordsPage.replace(/page=.*&type/, 'page='+pageNumber.toString()+'&type');
-  console.log(testChordPage);
   
   await page.goto(chordsPage);
   await page.setViewport({width: 1000, height: 500})
