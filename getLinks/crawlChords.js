@@ -11,6 +11,7 @@ async function getLinks() {
   var list;
   
   await page.goto('https://www.ultimate-guitar.com/explore?order=artistname_asc&type[]=Chords');
+  await page.setViewport({width: 1000, height: 500})
   await page.screenshot({ path: 'screenshots/ultimateguitar.png' });
 
   while(await page.$(NEXT_PAGE) != null){
@@ -19,6 +20,8 @@ async function getLinks() {
       page.click("#Rectangle");
     // await page.waitFor(() => !document.querySelector("#Rectangle"));
     }
+    await page.setViewport({width: 2000, height: 1000})
+
     console.log("out of the if statement, ad should be gone");
 
     list = await page.evaluateHandle(() => {
