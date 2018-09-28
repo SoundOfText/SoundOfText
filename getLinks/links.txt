@@ -48,8 +48,6 @@
   'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall_chords_1052518',
   'https://tabs.ultimate-guitar.com/tab/misc_soundtrack/the_greatest_showman_-_a_million_dreams_chords_2267983',
   'https://tabs.ultimate-guitar.com/tab/sam_smith/too_good_at_goodbyes_chords_2142281' ]
-something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=Chords
-2
 [ 'https://tabs.ultimate-guitar.com/tab/the_beatles/let_it_be_chords_60690',
   'https://tabs.ultimate-guitar.com/tab/imagine_dragons/radioactive_chords_1171909',
   'https://tabs.ultimate-guitar.com/tab/calum_scott/dancing_on_my_own_chords_1835574',
@@ -100,7 +98,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/fourtwnty/aku_tenang_chords_1883080',
   'https://tabs.ultimate-guitar.com/tab/shawn_mendes/stitches_chords_1721601',
   'https://tabs.ultimate-guitar.com/tab/dolly_parton/jolene_chords_183019' ]
-3
 [ 'https://tabs.ultimate-guitar.com/tab/michael_pangilinan/bakit_ba_ikaw_chords_1766350',
   'https://tabs.ultimate-guitar.com/tab/moira_dela_torre/tagpuan_chords_2297439',
   'https://tabs.ultimate-guitar.com/tab/elvis_presley/cant_help_falling_in_love_chords_43273',
@@ -151,7 +148,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/nirvana/smells_like_teen_spirit_chords_807883',
   'https://tabs.ultimate-guitar.com/tab/marion_jola/jangan_chords_2434233',
   'https://tabs.ultimate-guitar.com/tab/iv_of_spades/mundo_chords_2281559' ]
-4
 [ 'https://tabs.ultimate-guitar.com/tab/david_guetta/titanium_chords_1098920',
   'https://tabs.ultimate-guitar.com/tab/imagine_dragons/demons_chords_1148110',
   'https://tabs.ultimate-guitar.com/tab/coldplay/viva_la_vida_chords_675427',
@@ -202,7 +198,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/ed_sheeran/dive_chords_1956685',
   'https://tabs.ultimate-guitar.com/tab/lp/lost_on_you_chords_1825835',
   'https://tabs.ultimate-guitar.com/tab/fugees/killing_me_softly_chords_50470' ]
-5
 [ 'https://tabs.ultimate-guitar.com/tab/backstreet_boys/i_want_it_that_way_chords_827123',
   'https://tabs.ultimate-guitar.com/tab/jason_mraz/i_wont_give_up_chords_1121837',
   'https://tabs.ultimate-guitar.com/tab/ruth_b/lost_boy_chords_1706086',
@@ -253,7 +248,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/america/a_horse_with_no_name_chords_59609',
   'https://tabs.ultimate-guitar.com/tab/housefires/build_my_life_chords_1857672',
   'https://tabs.ultimate-guitar.com/tab/creedence_clearwater_revival/bad_moon_rising_chords_15892' ]
-6
 [ 'https://tabs.ultimate-guitar.com/tab/tracy_chapman/fast_car_chords_1044807',
   'https://tabs.ultimate-guitar.com/tab/sam_smith/stay_with_me_chords_1473649',
   'https://tabs.ultimate-guitar.com/tab/randy_newman/youve_got_a_friend_in_me_chords_107274',
@@ -304,7 +298,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/float/sementara_chords_1665963',
   'https://tabs.ultimate-guitar.com/tab/the_white_stripes/seven_nation_army_chords_52559',
   'https://tabs.ultimate-guitar.com/tab/the_beatles/yesterday_chords_887610' ]
-7
 [ 'https://tabs.ultimate-guitar.com/tab/frankie_valli/cant_take_my_eyes_off_you_chords_1505475',
   'https://tabs.ultimate-guitar.com/tab/avril_lavigne/head_above_water_chords_2474742',
   'https://tabs.ultimate-guitar.com/tab/bob_dylan/dont_think_twice_its_all_right_chords_178850',
@@ -355,7 +348,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/hivi/remaja_chords_1980289',
   'https://tabs.ultimate-guitar.com/tab/chris_cornell/like_a_stone_chords_1164073',
   'https://tabs.ultimate-guitar.com/tab/bee_gees/how_deep_is_your_love_chords_1191900' ]
-8
 [ 'https://tabs.ultimate-guitar.com/tab/lynyrd_skynyrd/simple_man_chords_1496841',
   'https://tabs.ultimate-guitar.com/tab/vance_joy/riptide_chords_1173278',
   'https://tabs.ultimate-guitar.com/tab/188005',
@@ -406,7 +398,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/journey/dont_stop_believin_chords_2063241',
   'https://tabs.ultimate-guitar.com/tab/bruno_mars/the_lazy_song_chords_1761018',
   'https://tabs.ultimate-guitar.com/tab/otis_redding/sittin_on_the_dock_of_the_bay_chords_1088518' ]
-9
 [ 'https://tabs.ultimate-guitar.com/tab/misc_children/twinkle_twinkle_little_star_chords_878203',
   'https://tabs.ultimate-guitar.com/tab/the_beatles/across_the_universe_chords_202167',
   'https://tabs.ultimate-guitar.com/tab/the_beatles/in_my_life_chords_531847',
@@ -457,7 +448,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/2405033',
   'https://tabs.ultimate-guitar.com/tab/secondhand_serenade/fall_for_you_chords_630290',
   'https://tabs.ultimate-guitar.com/tab/tom_petty/free_fallin_chords_167180' ]
-10
 [ 'https://tabs.ultimate-guitar.com/tab/sara_bareilles/she_used_to_be_mine_chords_1512525',
   'https://tabs.ultimate-guitar.com/tab/lady_antebellum/need_you_now_chords_866111',
   'https://tabs.ultimate-guitar.com/tab/the_beatles/all_my_loving_chords_453882',
@@ -508,7 +498,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/bon_iver/skinny_love_chords_835053',
   'https://tabs.ultimate-guitar.com/tab/abba/mamma_mia_chords_52949',
   'https://tabs.ultimate-guitar.com/tab/billie_eilish/my_boy_chords_2097571' ]
-11
 [ 'https://tabs.ultimate-guitar.com/tab/tom_walker/leave_a_light_on_chords_2207711',
   'https://tabs.ultimate-guitar.com/tab/luis_fonsi/despacito_chords_2062935',
   'https://tabs.ultimate-guitar.com/tab/mumford_sons/i_will_wait_chords_1174384',
@@ -559,7 +548,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/disturbed/the_sound_of_silence_chords_1762333',
   'https://tabs.ultimate-guitar.com/tab/juan_karlos_labajo/buwan_chords_2415745',
   'https://tabs.ultimate-guitar.com/tab/passenger/let_her_go_chords_1196760' ]
-12
 [ 'https://tabs.ultimate-guitar.com/tab/the_beatles/norwegian_wood_chords_1050930',
   'https://tabs.ultimate-guitar.com/tab/one_direction/history_chords_1778791',
   'https://tabs.ultimate-guitar.com/tab/chuck_berry/johnny_b_goode_chords_319116',
@@ -610,7 +598,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/tom_petty/free_fallin_chords_5655',
   'https://tabs.ultimate-guitar.com/tab/callalily/pansamantala_chords_1251488',
   'https://tabs.ultimate-guitar.com/tab/coldplay/a_sky_full_of_stars_chords_1480593' ]
-13
 [ 'https://tabs.ultimate-guitar.com/tab/don_mclean/vincent_chords_1746508',
   'https://tabs.ultimate-guitar.com/tab/bruno_mars/the_lazy_song_chords_999755',
   'https://tabs.ultimate-guitar.com/tab/bebe_rexha/meant_to_be_chords_2107185',
@@ -661,7 +648,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/louis_armstrong/la_vie_en_rose_chords_1190541',
   'https://tabs.ultimate-guitar.com/tab/misc_cartoons/aladdin_-_a_whole_new_world_chords_171361',
   'https://tabs.ultimate-guitar.com/tab/mumford_sons/little_lion_man_chords_872773' ]
-14
 [ 'https://tabs.ultimate-guitar.com/tab/coldplay/everglow_chords_1785810',
   'https://tabs.ultimate-guitar.com/tab/tamia/officially_missing_you_chords_791996',
   'https://tabs.ultimate-guitar.com/tab/ed_sheeran/all_of_the_stars_chords_1483219',
@@ -712,7 +698,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/iaxe/akoy_sa_iyo_ikay_akin_chords_133625',
   'https://tabs.ultimate-guitar.com/tab/the_rolling_stones/paint_it_black_chords_606572',
   'https://tabs.ultimate-guitar.com/tab/elevation_worship/give_me_faith_chords_1047465' ]
-15
 [ 'https://tabs.ultimate-guitar.com/tab/anda/menghitung_hari_2_chords_2190015',
   'https://tabs.ultimate-guitar.com/tab/shawn_mendes/lost_in_japan_chords_2347713',
   'https://tabs.ultimate-guitar.com/tab/fun_/we_are_young_chords_1114550',
@@ -763,7 +748,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/the_band/the_weight_chords_61592',
   'https://tabs.ultimate-guitar.com/tab/lauv/paris_in_the_rain_chords_2237777',
   'https://tabs.ultimate-guitar.com/tab/unique_salonga/midnight_sky_chords_2345681' ]
-16
 [ 'https://tabs.ultimate-guitar.com/tab/hillsong_united/so_will_i_100_billion_x_chords_2227963',
   'https://tabs.ultimate-guitar.com/tab/twenty_one_pilots/stressed_out_chords_1733581',
   'https://tabs.ultimate-guitar.com/tab/the_cranberries/zombie_chords_592087',
@@ -814,7 +798,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/jason_mraz/have_it_all_chords_2374583',
   'https://tabs.ultimate-guitar.com/tab/hillsong_united/so_will_i_100_billion_x_chords_2034223',
   'https://tabs.ultimate-guitar.com/tab/toploader/dancing_in_the_moonlight_chords_632945' ]
-17
 [ 'https://tabs.ultimate-guitar.com/tab/outkast/hey_ya_chords_90698',
   'https://tabs.ultimate-guitar.com/tab/kari_jobe/revelation_song_chords_976879',
   'https://tabs.ultimate-guitar.com/tab/michael_w_smith/above_all_chords_153876',
@@ -865,7 +848,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/ten2five/you_chords_983193',
   'https://tabs.ultimate-guitar.com/tab/aerosmith/dream_on_chords_905779',
   'https://tabs.ultimate-guitar.com/tab/keane/everybodys_changing_chords_111685' ]
-18
 [ 'https://tabs.ultimate-guitar.com/tab/deep_purple/soldier_of_fortune_chords_15197',
   'https://tabs.ultimate-guitar.com/tab/christina_perri/a_thousand_years_chords_1102066',
   'https://tabs.ultimate-guitar.com/tab/sam_smith/im_not_the_only_one_chords_1760831',
@@ -916,7 +898,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/green_day/basket_case_chords_955966',
   'https://tabs.ultimate-guitar.com/tab/jessie_reyez/figures_chords_1871571',
   'https://tabs.ultimate-guitar.com/tab/kodaline/all_i_want_chords_1461962' ]
-19
 [ 'https://tabs.ultimate-guitar.com/tab/christina_perri/human_chords_1433388',
   'https://tabs.ultimate-guitar.com/tab/the_lumineers/sleep_on_the_floor_chords_1815265',
   'https://tabs.ultimate-guitar.com/tab/hailee_steinfeld/starving_chords_1870745',
@@ -967,7 +948,6 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/swv/weak_chords_912744',
   'https://tabs.ultimate-guitar.com/tab/post_malone/better_now_chords_2376095',
   'https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/dying_in_la_chords_2408137' ]
-20
 [ 'https://tabs.ultimate-guitar.com/tab/the_black_keys/little_black_submarines_chords_1112222',
   'https://tabs.ultimate-guitar.com/tab/ellie_goulding/love_me_like_you_do_chords_1701241',
   'https://tabs.ultimate-guitar.com/tab/ingrid_michaelson/you_and_i_chords_746553',
@@ -1018,3 +998,141 @@ something didn't work at https://www.ultimate-guitar.com/explore?page=1&type[]=C
   'https://tabs.ultimate-guitar.com/tab/rita_springer/defender_chords_1978635',
   'https://tabs.ultimate-guitar.com/tab/one_ok_rock/wherever_you_are_chords_1194284',
   'https://tabs.ultimate-guitar.com/tab/hillsong_united/mighty_to_save_chords_665341' ]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]

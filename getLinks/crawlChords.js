@@ -29,9 +29,9 @@ async function getLinks() {
         return Array.from(document.getElementsByClassName('link-primary _1kcZ5')).map(a => a.href);
       });
       console.log(await list.jsonValue());
-      page.click(NEXT_PAGE);
-      await page.waitForNavigation();
-      await page.screenshot({ path: 'screenshots/nextpage.png' });
+      // page.click(NEXT_PAGE);
+      // await page.waitForNavigation();
+      // await page.screenshot({ path: 'screenshots/nextpage.png' });
     }
     catch{
       console.log("something didn't work at", chordsPage);
@@ -39,7 +39,6 @@ async function getLinks() {
     }
     pageNumber++;
     pageNumber.toString();
-    console.log(pageNumber.toString());
     chordsPage = chordsPage.replace(/page=.*&type/, 'page='+pageNumber.toString()+'&type');
     await page.goto(chordsPage);
   }
