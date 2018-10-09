@@ -1,0 +1,2 @@
+1. try to append ?filter=chords to url.
+2. get links of chords
