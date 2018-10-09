@@ -1,3 +1,4 @@
 crawl/node_modules/*
 getLinks/node_modules/*
 getLinks/links.txt
+node_modules/*

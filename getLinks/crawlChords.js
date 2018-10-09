@@ -1,3 +1,4 @@
+//this script gets the links to the 1000 most popular songs
 const ugs = require('ultimate-guitar-scraper')
 const puppeteer = require('puppeteer');
 const NEXT_PAGE = "body > div.js-page.js-global-wrapper > div > div._16KsA > main > div._2WjWY > div._1iiNj > section > div._3Aoru > div > a._1NFVI._1G04O._2oeZQ._1kcZ5";
