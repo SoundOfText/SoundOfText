@@ -4,6 +4,8 @@ filename = sys.argv[1]
 #this is very simple. run python cleanlinks.py <file path to clean> > <new filename for clean links>
 #example: python cleanLinks.py artistLinks/n-links.out > cleanLinks/n-links.out
 
+url_dict = {}
+
 f = open(filename, 'r')
 for line in f:
     line = line.strip()
@@ -11,11 +13,17 @@ for line in f:
         continue
     else:
         if line.startswith('[ '):
-            print line[2:]
             line = line[2:]
         if line.endswith(']'):
             line = line[:-1]
         if line.endswith(','):
             line = line[:-1]
-    print line.strip()
+        if line.endswith("'"):
+            line = line[:-1]
+        if line.startswith("'"):
+            line = line[1:]
+    url_dict[line] = 1
+
+for url in url_dict.keys():
+    print url
 
