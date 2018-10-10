@@ -29,11 +29,11 @@ var urls = fs.readFile(filename, 'utf8', function(err, data) {
                 await page.goto(url);
                 await page.setViewport({width : 2000 , height : 3000});
                 list = await page.evaluateHandle(() => {
-                    return Array.from(document.getElementsByClassName('link-secondary _1kcZ5')).map(a => a.href);
+                    return Array.from(document.getElementsByClassName('link-primary _1kcZ5')).map(a => a.href);
                 });
                 testlist= await list.jsonValue();
                 if (testlist.length == 0) {
-                    console.log("done");
+                    pagesToExplore = false;
                     break;
                 }
                 console.log(testlist);
@@ -43,7 +43,6 @@ var urls = fs.readFile(filename, 'utf8', function(err, data) {
                 console.log("something didn't work at", url);
                 break;
             }
-            pageindex++;
         }
 
     }
