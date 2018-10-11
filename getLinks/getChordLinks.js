@@ -20,11 +20,16 @@ var urls = fs.readFile(filename, 'utf8', function(err, data) {
 (async () => {
     const browser = await puppeteer.launch(headless = false);
     const page = await browser.newPage();
+    var explored = {}
     for (var i = 0; i < urls.length; i++ ){
         var pageindex = 1;
         pagesToExplore = true;
         while(pagesToExplore){
             url = urls[i] + "?filter=chords&page=" + pageindex
+            explored[url] = 1;
+            if (url in explored) {
+                break;
+            }
             try{     
                 await page.goto(url);
                 await page.setViewport({width : 2000 , height : 3000});
@@ -37,12 +42,12 @@ var urls = fs.readFile(filename, 'utf8', function(err, data) {
                     break;
                 }
                 console.log(testlist);
-                pageindex++;
             }
             catch(e){
                 console.log("something didn't work at", url);
                 break;
             }
+            pageindex++;
         }
 
     }
