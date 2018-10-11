@@ -17,21 +17,33 @@ var urls = fs.readFile(filename, 'utf8', function(err, data) {
   return urls;
 });
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 (async () => {
     const browser = await puppeteer.launch(headless = false);
     const page = await browser.newPage();
     var explored = {}
+    var numRequests = 0;
     for (var i = 0; i < urls.length; i++ ){
         var pageindex = 1;
         pagesToExplore = true;
         while(pagesToExplore){
+            if (urls[i].length == 0) {
+                break;
+            }
             url = urls[i] + "?filter=chords&page=" + pageindex
-            explored[url] = 1;
-            if (url in explored) {
+            if (!(url in explored)) {
+                explored[url] = 1;
+            }
+            else {
+                console.log("requesting url multiple times");
                 break;
             }
             try{     
                 await page.goto(url);
+                numRequests++;
                 await page.setViewport({width : 2000 , height : 3000});
                 list = await page.evaluateHandle(() => {
                     return Array.from(document.getElementsByClassName('link-primary _1kcZ5')).map(a => a.href);
@@ -44,10 +56,16 @@ var urls = fs.readFile(filename, 'utf8', function(err, data) {
                 console.log(testlist);
             }
             catch(e){
+                console.log(e);
                 console.log("something didn't work at", url);
                 break;
             }
             pageindex++;
+            if (numRequests % 1000 == 0) {
+                console.log("delaying the crawler");
+                await sleep(10000);
+            }
+            await sleep(1000);
         }
 
     }

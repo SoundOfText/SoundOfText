@@ -1,8 +1,8 @@
 import cleanLinks
 import sys
 import os
-directory = sys.argv[1]
+unclean_directory = sys.argv[1]
+clean_directory = sys.argv[2]
 
-for filename in os.listdir(directory):
-    print(os.path.join(directory, filename))
-    print(filename)
+for filename in os.listdir(unclean_directory):
+    cleanLinks.clean(unclean_directory + filename, clean_directory+filename)
