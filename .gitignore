@@ -10,4 +10,5 @@ getLinks/chordLinks/*
 getLinks/artistLinksClean/*
 getLinks/chordLinks/*
 getLinks/previouslyFailed/*
-
+.DS_Store
+API call/node_modules
