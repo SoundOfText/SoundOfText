@@ -8,7 +8,7 @@ fs.readFile('chord_links.txt', function(err, data) {
     var urlList = data.toString().split('\n');
 
     //for each link in the array, call the API and write the response to file
-    for (i = 0; i < 1001; i++) {
+    for (i in urlList) {
       let tabUrl = urlList[i];
       ugs.get(tabUrl, (error, tab) => {
         if (error) {
