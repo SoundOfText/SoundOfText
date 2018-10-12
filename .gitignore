@@ -2,4 +2,12 @@ crawl/node_modules/*
 getLinks/node_modules/*
 getLinks/links.txt
 node_modules/*
-.DS_Store
+getLinks/songLinks/*
+getLinks/cleanLinks/*
+getLinks/artistLinks/*
+*.pyc
+getLinks/chordLinks/*
+getLinks/artistLinksClean/*
+getLinks/chordLinks/*
+getLinks/previouslyFailed/*
+
