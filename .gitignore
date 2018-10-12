@@ -6,3 +6,4 @@ getLinks/songLinks/*
 getLinks/cleanLinks/*
 getLinks/artistLinks/*
 *.pyc
+getLinks/chordLinks/*
