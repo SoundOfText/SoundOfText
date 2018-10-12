@@ -49,7 +49,6 @@ function sleep(ms) {
                 else {
                     if (!(testlist[0] in explored)) {
                         explored[testlist[0]] = 1;
-                        console.log("explored: " + testlist[0]);
                     }
                     else {
                         console.log("requesting url multiple times");
@@ -65,7 +64,7 @@ function sleep(ms) {
                 break;
             }
             pageindex++;
-            await sleep(1000);
+            //await sleep(100);
         }
 
     }
