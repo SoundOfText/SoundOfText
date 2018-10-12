@@ -34,13 +34,6 @@ function sleep(ms) {
                 break;
             }
             url = urls[i] + "?filter=chords&page=" + pageindex
-            if (!(url in explored)) {
-                explored[url] = 1;
-            }
-            else {
-                console.log("requesting url multiple times");
-                break;
-            }
             try{     
                 await page.goto(url);
                 numRequests++;
@@ -53,6 +46,17 @@ function sleep(ms) {
                     pagesToExplore = false;
                     break;
                 }
+                else {
+                    if (!(testlist[0] in explored)) {
+                        explored[testlist[0]] = 1;
+                        console.log("explored: " + testlist[0]);
+                    }
+                    else {
+                        console.log("requesting url multiple times");
+                        pagesToExplore=false;
+                        break;
+                    }
+                }
                 console.log(testlist);
             }
             catch(e){
@@ -61,10 +65,6 @@ function sleep(ms) {
                 break;
             }
             pageindex++;
-            if (numRequests % 1000 == 0) {
-                console.log("delaying the crawler");
-                await sleep(10000);
-            }
             await sleep(1000);
         }
 
