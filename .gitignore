@@ -6,6 +6,8 @@ getLinks/songLinks/*
 getLinks/cleanLinks/*
 getLinks/artistLinks/*
 *.pyc
+getLinks/chordLinks/*
 getLinks/artistLinksClean/*
 getLinks/chordLinks/*
 getLinks/previouslyFailed/*
+
