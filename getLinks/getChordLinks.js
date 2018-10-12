@@ -51,12 +51,14 @@ function sleep(ms) {
                         explored[testlist[0]] = 1;
                     }
                     else {
-                        console.log("requesting url multiple times");
+                        //console.log("requesting url multiple times");
                         pagesToExplore=false;
                         break;
                     }
                 }
-                console.log(testlist);
+                for (i in testlist) {
+                    console.log(testlist[i]);
+                }
             }
             catch(e){
                 console.log(e);
@@ -64,7 +66,7 @@ function sleep(ms) {
                 break;
             }
             pageindex++;
-            //await sleep(100);
+            await sleep(1000);
         }
 
     }
