@@ -1,4 +1,0 @@
-1. Create queue of URLS or readline 
-2. try to append ?filter=chords to url. or ?filter=chords&page=1
-    while you can get to that url:
-        3. get links of chords class is link-primary _1kcZ5
