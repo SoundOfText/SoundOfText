@@ -66,7 +66,7 @@ function sleep(ms) {
                 break;
             }
             pageindex++;
-            await sleep(5000);
+            await sleep(1000);
         }
 
     }
