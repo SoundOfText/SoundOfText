@@ -12,3 +12,4 @@ getLinks/chordLinks/*
 getLinks/previouslyFailed/*
 .DS_Store
 API call/node_modules
+getLinks/vmsetup.sh
