@@ -43,38 +43,45 @@ function sleep(ms) {
                         _403 = true;
                         console.log("403 err");
                     }
-                    await sleep(600000);
-                    var time_waited = new Date();
-                    var difference = new Date();
-                    difference.setTime(time_waited.getTime() - start.getTime());
-                    console.log("Waited for " + difference);
-                    continue;
+                    while (response._status == 403) {
+                        await sleep(600000);
+                        var time_waited = new Date();
+                        var difference = new Date();
+                        difference.setTime(time_waited.getTime() - start.getTime());
+                        console.log("Waited for " + difference.getMilliseconds());
+                        response = await page.goto(url);
+                    }
+                    if (response._status === 200) {
+                        if (_403 == true) {
+                            _403 = false;
+                            console.log("out of 403 err");
+                        }
+                    }
+                }
+                await page.setViewport({width : 2000 , height : 3000});
+                list = await page.evaluateHandle(() => {
+                    return Array.from(document.getElementsByClassName('link-primary _1kcZ5')).map(a => a.href);
+                });
+                testlist= await list.jsonValue();
+                if (testlist.length == 0) {
+                    pagesToExplore = false;
+                    break;
                 }
                 else {
-                    await page.setViewport({width : 2000 , height : 3000});
-                    list = await page.evaluateHandle(() => {
-                        return Array.from(document.getElementsByClassName('link-primary _1kcZ5')).map(a => a.href);
-                    });
-                    testlist= await list.jsonValue();
-                    if (testlist.length == 0) {
-                        pagesToExplore = false;
-                        break;
+                    if (!(testlist[0] in explored)) {
+                        explored[testlist[0]] = 1;
                     }
                     else {
-                        if (!(testlist[0] in explored)) {
-                            explored[testlist[0]] = 1;
-                        }
-                        else {
-                            pagesToExplore=false;
-                            break;
-                        }
+                        pagesToExplore=false;
+                        break;
                     }
-                    for (i in testlist) {
-                        console.log(testlist[i]);
-                    }
-                    pageindex++;
-                    await sleep(1000);
                 }
+                for (i in testlist) {
+                    console.log(testlist[i]);
+                }
+                pageindex++;
+                await sleep(5000);
+
             }
             catch(e){
                 console.log(e);
@@ -82,12 +89,6 @@ function sleep(ms) {
                 fileStream.write(url + '\n');
                 break;
 
-            }
-            if (response._status === 200) {
-                if (_403 == true) {
-                    _403 = false;
-                    console.log("out of 403 err");
-                }
             }
         }
 
