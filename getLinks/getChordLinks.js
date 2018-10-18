@@ -6,8 +6,6 @@ var command_args = process.argv.slice(2);
 console.log(command_args[0]);
 filename = command_args[0];
 
-
-var fs = require('fs');
 var urls;
 
 var urls = fs.readFile(filename, 'utf8', function(err, data) {
@@ -25,7 +23,8 @@ function sleep(ms) {
     const browser = await puppeteer.launch(headless = false);
     const page = await browser.newPage();
     var explored = {}
-    var numRequests = 0;
+    var response;
+    let fileStream = fs.createWriteStream(filename + '.txt', {flags: 'a'});
     for (var i = 0; i < urls.length; i++ ){
         var pageindex = 1;
         pagesToExplore = true;
@@ -35,8 +34,7 @@ function sleep(ms) {
             }
             url = urls[i] + "?filter=chords&page=" + pageindex
             try{     
-                await page.goto(url);
-                numRequests++;
+                response = await page.goto(url);
                 await page.setViewport({width : 2000 , height : 3000});
                 list = await page.evaluateHandle(() => {
                     return Array.from(document.getElementsByClassName('link-primary _1kcZ5')).map(a => a.href);
@@ -51,7 +49,6 @@ function sleep(ms) {
                         explored[testlist[0]] = 1;
                     }
                     else {
-                        //console.log("requesting url multiple times");
                         pagesToExplore=false;
                         break;
                     }
@@ -61,12 +58,20 @@ function sleep(ms) {
                 }
             }
             catch(e){
-                console.log(e);
-                console.log("something didn't work at", url);
-                break;
+                if (response._status === 403) {
+                    continue;
+                }
+                else {
+                    console.log(e);
+                    console.log("something didn't work at", url);
+                    fileStream.write(url + '\n');
+                    break;
+                }
             }
-            pageindex++;
-            await sleep(1000);
+            if (response._status === 200) {
+                pageindex++;
+                await sleep(1000);
+            }
         }
 
     }
